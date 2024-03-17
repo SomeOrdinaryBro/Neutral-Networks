@@ -25,7 +25,6 @@ class Controls{
                     break;
             }
         }
-        
         document.onkeyup=(event)=>{
             switch(event.key){
                 case "ArrowLeft":
@@ -40,7 +39,7 @@ class Controls{
                 case "ArrowDown":
                     this.reverse=false;
                     break;
-            } 
+            }
         }
     }
 }
